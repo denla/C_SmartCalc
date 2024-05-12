@@ -1,0 +1,11 @@
+release/main.o
+release/calculator.o
+release/credit.o
+release/graph.o
+release/mainwindow.o
+release/qcustomplot.o
+release/qrc_test.o
+release/moc_credit.o
+release/moc_graph.o
+release/moc_mainwindow.o
+release/moc_qcustomplot.o

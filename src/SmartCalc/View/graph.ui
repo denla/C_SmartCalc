@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Graph</class>
+ <widget class="QWidget" name="Graph">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Graph</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: white;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+ qproperty-alignment: 'AlignVCenter || AlignRight';
+ font-size: 32px;
+ font-weight: 500;
+}</string>
+       </property>
+       <property name="text">
+        <string>y=</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+ qproperty-alignment: 'AlignVCenter || AlignRight';
+ font-size: 32px;
+ font-weight: 500;
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QCustomPlot" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font-family: SF Pro Display;</string>
+       </property>
+       <property name="text">
+        <string>Ymax</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font-family: SF Pro Display;</string>
+       </property>
+       <property name="text">
+        <string>Xmin</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Ymax">
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox {
+	padding: 0 12px;
+	border-radius: 12px;
+	border: 1px solid rgb(222, 222, 222);
+	font-family: SF Pro Display;
+	height: 40px;
+}
+
+QDoubleSpinBox :focus {
+	border: 1px solid #bfff6a;
+}</string>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Xmin">
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox {
+	padding: 0 12px;
+	border-radius: 12px;
+	border: 1px solid rgb(222, 222, 222);
+	font-family: SF Pro Display;
+	height: 40px;
+}
+
+QDoubleSpinBox :focus {
+	border: 1px solid #bfff6a;
+}</string>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font-family: SF Pro Display;</string>
+       </property>
+       <property name="text">
+        <string>Xmax</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Xmax">
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox {
+	padding: 0 12px;
+	border-radius: 12px;
+	border: 1px solid rgb(222, 222, 222);
+	font-family: SF Pro Display;
+	height: 40px;
+}
+
+QDoubleSpinBox :focus {
+	border: 1px solid #bfff6a;
+}</string>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_Ymin">
+       <property name="styleSheet">
+        <string notr="true">QDoubleSpinBox {
+	padding: 0 12px;
+	border-radius: 12px;
+	border: 1px solid rgb(222, 222, 222);
+	font-family: SF Pro Display;
+	height: 40px;
+}
+
+QDoubleSpinBox :focus {
+	border: 1px solid #bfff6a;
+}</string>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font-family: SF Pro Display;</string>
+       </property>
+       <property name="text">
+        <string>Ymin</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>10</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

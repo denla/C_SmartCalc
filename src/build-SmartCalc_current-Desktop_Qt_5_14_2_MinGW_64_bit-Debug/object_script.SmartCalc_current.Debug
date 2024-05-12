@@ -1,0 +1,11 @@
+debug/main.o
+debug/calculator.o
+debug/credit.o
+debug/graph.o
+debug/mainwindow.o
+debug/qcustomplot.o
+debug/qrc_test.o
+debug/moc_credit.o
+debug/moc_graph.o
+debug/moc_mainwindow.o
+debug/moc_qcustomplot.o

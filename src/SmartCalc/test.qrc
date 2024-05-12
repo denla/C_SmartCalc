@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/no comment.svg</file>
+        <file>images/clear.svg</file>
+        <file>images/graph.svg</file>
+        <file>images/credit_icon.svg</file>
+        <file>images/icon.ico</file>
+        <file>images/copy.svg</file>
+        <file>images/icon.icns</file>
+    </qresource>
+</RCC>
